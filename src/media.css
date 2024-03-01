@@ -1,0 +1,71 @@
+@media (max-width: 1440px) {
+  .searchBox {
+    width: min(624px, 90%) !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .searchBox {
+    width: min(524px, 90%) !important;
+  }
+  .rowDiv.HomeProducts {
+    justify-content: center;
+  }
+  .categories {
+    flex-direction: column;
+    position: absolute;
+    top: 190%;
+    background: white;
+    width: 100%;
+    box-shadow: 1px 2px 24px -2px #8080802e;
+    padding: 10px;
+    border-radius: 16px;
+    z-index: 12213213123123 !important;
+    transition: 0.4s ease-in-out;
+    display: none;
+  }
+  .rowDiv {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1140px) {
+  .searchBox {
+    width: 90% !important;
+    margin: auto;
+  }
+  .HeaderIcons {
+    order: -4;
+  }
+  :root {
+    --main-width: 100%;
+  }
+}
+
+@media (max-width: 692px) {
+  .LeftMiddleHeader {
+    gap: 10px !important;
+  }
+
+  .rowDiv {
+    gap: 10px !important;
+  }
+}
+
+@media (max-width: 484px) {
+  input::placeholder {
+    font-size: 14px !important;
+  }
+  .HeaderIcons {
+    order: -4;
+  }
+
+  .logo {
+    width: 140px !important;
+    height: fit-content !important;
+  }
+  .logo img {
+    width: 120px !important;
+    object-fit: cover;
+  }
+}

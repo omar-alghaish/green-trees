@@ -1,0 +1,117 @@
+.conf_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.conf_page .conf_content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.conf_content img {
+  max-width: 100%;
+  margin-top: 40px !important;
+}
+
+.conf_page .conf_content * {
+  margin: 0px;
+}
+
+.conf_page .conf_content .left {
+  width: 400px;
+  max-width: 100%;
+  text-align: center !important;
+}
+
+.conf_page .conf_content .left h4 {
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 8px !important;
+}
+
+.conf_page .conf_content .left p {
+  margin: 0px;
+  text-align: center !important;
+}
+
+.conf_page .conf_content .left p:nth-of-type(1) {
+  text-align: center;
+  margin: 9px 0px !important;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+.conf_page .conf_content .left p:nth-of-type(1) span {
+  font-weight: 600;
+}
+
+.conf_page .conf_content .left p:nth-of-type(2) {
+  margin: 0px 0px 33px 0px;
+  font-size: 22px;
+}
+
+.conf_page .conf_content .left p:nth-of-type(2) span {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.conf_page .conf_content .left h5 {
+  margin-bottom: 40px;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.conf_page .conf_content .inputs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.conf_page .conf_content .inputs input {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding-right: 17px;
+}
+
+.conf_content .resend {
+  margin-bottom: 50px !important;
+  text-align: center !important;
+}
+
+.conf_content button {
+  background-color: var(--main-color);
+  width: 300px;
+  max-width: 100%;
+  color: white;
+  padding: 13px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 20px auto !important;
+  display: block;
+}
+
+.vi__character.vi__character--inactive {
+  border-radius: 10px;
+  border: 0.5px solid #47586e;
+  width: 50px;
+  height: 50px;
+  background: white;
+}

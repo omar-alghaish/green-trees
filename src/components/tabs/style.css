@@ -1,0 +1,22 @@
+.rowDiv.tabs {
+  justify-content: center;
+  margin: 32px auto;
+}
+
+.tab-btn {
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  /* web-title */
+  font-family: Tajawal;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 33.6px */
+}
+
+.tab-btn.activeTab {
+  color: var(--primary, #009418);
+  font-size: 28px;
+  font-weight: 700;
+}

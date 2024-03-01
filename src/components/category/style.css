@@ -1,0 +1,27 @@
+.category.columnDiv img {
+  /* width: 129px; */
+  height: 94.135px;
+  flex-shrink: 0;
+  /* object-fit: cover; */
+}
+
+.category.columnDiv {
+  width: 226px;
+  align-items: center;
+  height: 250px;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding: 29px 48px;
+  cursor: pointer;
+}
+
+.category.columnDiv h5 {
+  color: #000;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 27.6px */
+}

@@ -1,0 +1,42 @@
+.login_page .left h4 {
+  color: var(--main-color);
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.login_page form div span {
+  font-size: 14px;
+}
+
+.login_page .conf_parent {
+  margin-top: 40px;
+}
+
+.login_page .conf_txt {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 0px !important;
+}
+
+.login_page .conf_parent * {
+  margin: 0px;
+}
+
+.login_page .conf_parent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px !important;
+}
+
+.login_page .conf_txt p:nth-of-type(1) {
+  font-weight: 400;
+  color: #828282;
+}
+
+.login_page .conf_txt p:nth-of-type(2) {
+  color: var(--main-color);
+  cursor: pointer;
+  font-weight: 800;
+}

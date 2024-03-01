@@ -1,0 +1,19 @@
+.change_success_page .left h2 {
+  margin-bottom: 14px !important;
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+}
+
+.change_success_content {
+  align-items: center !important;
+}
+
+.change_success_page .left p {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}

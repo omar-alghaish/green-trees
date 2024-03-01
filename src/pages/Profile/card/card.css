@@ -1,0 +1,136 @@
+.profile-card-container {}
+
+.profile-card-container .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-card-container .title .icon-container svg {
+  color: var(--main-color);
+  font-size: 32px;
+}
+
+.profile-card-container .saved-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.profile-card-container .row1 {
+  display: flex;
+  gap: 10px
+}
+
+.card-number {
+  margin-right: 25px;
+}
+
+.add-card-button {
+  background-color: #f3fff4;
+  padding: 10px 50px;
+  border: 1px dashed var(--main-color);
+  width: max-content;
+  border-radius: 16px;
+  font-weight: 700;
+  color: var(--main-color);
+  font-size: 25px;
+  height: 76px;
+  width: 385px;
+  margin-top: 50px;
+}
+
+.payment_method {
+  height: 0;
+  /* overflow: hidden; */
+  /* visibility: hidden; */
+  transition: .3s;
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.payment_method.active {
+  height: max-content;
+  visibility: visible;
+  overflow: hidden;
+}
+
+.payment_method .input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.make_res {
+  margin: auto;
+  text-align: center;
+}
+
+.make_res_ch {
+  margin: auto !important;
+}
+
+.make_res_ch * {
+  text-align: start;
+}
+
+.payment_method .input-form input {
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid var(--main-color);
+  padding: 10px;
+  width: 100%;
+}
+
+.payment_method .input-form label {
+  font-weight: bold;
+  color: rgb(77, 77, 77);
+}
+
+.payment_method .d-flex {
+  gap: 20px;
+}
+
+.payment_method .d-flex .input-form {
+  flex-grow: 1;
+}
+
+.card_container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  width: 400px;
+  margin: auto;
+  background-position: 50%;
+  position: relative;
+  background-image: url("../../../assets/images/Master\ Card\ 2\ \(Dark\ Crystal\)\(1\).png");
+}
+
+.card_container h5 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  left: 50px;
+  top: 40px;
+  text-align: left;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+  left: 50px;
+  color: white;
+}
+
+.bottom * {
+  margin: 0px;
+}
+
+.bottom h6 {
+  min-height: 25px;
+  text-align: left;
+}

@@ -1,0 +1,32 @@
+button.filterBtn.btn {
+  border-radius: 16px;
+  background: var(--light-green, #f7fff8);
+  padding: 10px 30px;
+  color: var(--foundation-blue-normal-active, #3d4c5e);
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--main-color) !important;
+}
+
+button.filterBtn.btn.filtered {
+  background-color: var(--main-color);
+  color: white;
+  border: 0.5px solid var(--foundation-blue-normal-active, #3d4c5e) !important;
+}
+
+.rowDiv.filters {
+  margin: 20px auto;
+  justify-content: flex-start;
+}
+
+.rowDiv.bannerDiv.CategoriesProductsSlider .swiper {
+  padding: 40px 0 !important;
+}

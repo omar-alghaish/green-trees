@@ -1,0 +1,30 @@
+.category {
+  color: var(--foundation-blue-normal-active, #3d4c5e);
+  text-align: right;
+
+  /* web body */
+  font-family: Tajawal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  color: var(--foundation-blue-normal-active, #3d4c5e);
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.categories .category {
+  cursor: pointer;
+}

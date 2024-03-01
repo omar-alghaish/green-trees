@@ -1,0 +1,170 @@
+.location-container {}
+
+.location-container .location-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location-container .location-list .mainLocation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.location-container .location-list .mainLocation::after {
+    content: "";
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    height: 6px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.location-container .location-list .mainLocation .row1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.location-container .location-list .mainLocation .icon-container svg {
+    color: var(--main-color);
+    font-size: 30px;
+
+}
+
+.location-container .location-list .mainLocation .details h3 {
+    font-weight: 300;
+}
+
+.add-location-button {
+    background-color: #f3fff4;
+    padding: 10px 50px;
+    border: 1px dashed var(--main-color);
+    width: max-content;
+    border-radius: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: 25px;
+    height: 76px;
+    width: 385px;
+}
+
+.location-container .locations .location .row1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.location-container .locations .location .row1 h3 {
+    color: rgb(82, 82, 82);
+}
+
+.location-container .locations .location {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.location-container .locations .location .row1 .icon-container svg {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.location-container .locations .location .details h5 {
+    font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .location-container {}
+
+    .location-container .location-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .location-container .location-list .mainLocation {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .location-container .location-list .mainLocation::after {
+        content: "";
+        width: 100%;
+        background-color: rgb(239, 239, 239);
+        height: 4px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .location-container .location-list .mainLocation .row1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .location-container .location-list .mainLocation .icon-container svg {
+        color: var(--main-color);
+        font-size: 20px;
+
+    }
+
+    .location-container .location-list .mainLocation .details h3 {
+        font-weight: 300;
+    }
+
+    .add-location-button {
+        background-color: #f3fff4;
+        padding: 10px 50px;
+        border: 1px dashed var(--main-color);
+        width: max-content;
+        border-radius: 16px;
+        font-weight: 700;
+        color: var(--main-color);
+        font-size: 20px;
+        height: 76px;
+        width: 385px;
+        max-width: 100%;
+    }
+
+    .location-container .locations .location .row1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .location-container .locations .location .row1 h3 {
+        color: rgb(82, 82, 82);
+    }
+
+    .location-container .locations .location {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .location-container .locations .location .row1 .icon-container svg {
+        color: var(--main-color);
+        font-size: 20px;
+    }
+
+    .location-container .locations .location .details h5 {
+        font-weight: 300;
+    }
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,314 @@
+.order-right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.order-right-container .pay-map-container {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 30px;
+}
+
+.order-right-container .pay-map-container .row {
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border-right: 2px solid var(--main-color);
+}
+
+.order-right-container .pay-map-container .row::after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  position: absolute;
+  right: -17.5px;
+  top: 12.5px;
+}
+
+.order-right-container .pay-map-container .row::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #BBFEC3;
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+
+
+.order-right-container .pay-map-container .row:nth-child(3)::after {
+  background-color: transparent;
+}
+
+.order-right-container .pay-map-container .row:nth-child(3)::before {
+  content: "3";
+  background-color: #B2BBC6;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.order-right-container .pay-map-container .row:nth-child(2) {
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border-right: dashed var(--main-color) 2px;
+}
+
+.order-right-container .pay-map-container .row:nth-child(3) {
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border-right: none;
+}
+
+.order-right-container .pay-map-container .row:nth-child(3) .title h1 {
+  color: #B2BBC6;
+}
+
+.order-right-container .pay-map-container .row .title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.order-right-container .pay-map-container .row .title h1 {
+  color: var(--main-color);
+
+}
+
+.order-right-container .pay-map-container .row .title .icon-container svg {
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+.order-right-container .pay-map-container .row .content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.order-right-container .pay-map-container .row .content .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.order-right-container .pay-map-container .row .content strong {
+  font-size: 20px;
+}
+
+.checkBox-container {
+  display: flex;
+  gap: 5px;
+
+}
+
+.checkBox-container h6 {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.order-right-container .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  width: max-content;
+}
+
+.order-right-container .bottom a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 23px;
+  font-weight: 600;
+  width: max-content;
+}
+
+.order-right-container .bottom a:nth-child(3) {
+  color: red;
+}
+
+
+.order-right-container .cancel-popup .buttons-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.order-right-container .cancel-popup .buttons-container button {
+  width: 100px;
+  height: 50px;
+  border-radius: 13px;
+  font-weight: bold;
+}
+
+.order-right-container .cancel-popup .buttons-container button:nth-child(1) {
+  background-color: red;
+  color: white;
+}
+
+.order-right-container .cancel-popup .buttons-container button:nth-child(2) {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.return-policy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .order-right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 30px;
+  }
+
+  .order-right-container .pay-map-container {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 30px;
+  }
+
+  .order-right-container .pay-map-container .row {
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-right: 2px solid var(--main-color);
+  }
+
+  .order-right-container .pay-map-container .row::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    position: absolute;
+    right: -15px;
+    top: 10px;
+  }
+
+  .order-right-container .pay-map-container .row::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #BBFEC3;
+    position: absolute;
+    right: -25px;
+    top: 0;
+  }
+
+
+  .order-right-container .pay-map-container .row:nth-child(3)::after {
+    background-color: transparent;
+  }
+
+  .order-right-container .pay-map-container .row:nth-child(3)::before {
+    content: "3";
+    background-color: #B2BBC6;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .order-right-container .pay-map-container .row:nth-child(3) {
+    padding-right: 40px;
+    padding-bottom: 30px;
+    border-right: none;
+  }
+
+  .order-right-container .pay-map-container .row .title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .order-right-container .pay-map-container .row .title h1 {
+    color: var(--main-color);
+    font-size: 20px;
+
+  }
+
+  .order-right-container .pay-map-container .row .title .icon-container svg {
+    color: var(--main-color);
+    font-size: 20px;
+  }
+
+  .order-right-container .pay-map-container .row .content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .order-right-container .pay-map-container .row .content .d-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .order-right-container .pay-map-container .row .content strong {
+    font-size: 15px;
+  }
+
+  .row .icon svg {
+    width: 20px;
+  }
+
+  .checkBox-container {
+    display: flex;
+    gap: 5px;
+
+  }
+
+  .checkBox-container h6 {
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+
+  .order-right-container .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .order-right-container .bottom a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .order-right-container .bottom a:nth-child(3) {
+    color: red;
+  }
+}
+
+@media (max-width:992px) {
+  .order-right-container .pay-map-container {
+    width: 100% !important;
+  }
+}

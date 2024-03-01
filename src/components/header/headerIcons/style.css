@@ -1,0 +1,36 @@
+.HeaderIcons {
+  display: flex;
+  width: 141px;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.HeaderIcons > * {
+  cursor: pointer;
+}
+
+.HeaderIcons sup,
+.HeaderIcons sub {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background: var(--main-color);
+  position: absolute;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -17px;
+  border-radius: 50px;
+  z-index: 12;
+}
+
+.HeaderIcons sub {
+  right: -17px;
+  left: auto;
+  top: auto;
+  bottom: -15px;
+}

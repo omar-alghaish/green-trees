@@ -1,0 +1,12 @@
+.logo {
+  width: 202.767px;
+  height: 77px;
+  object-fit: cover;
+}
+
+body.arVersion {
+  direction: rtl;
+}
+.rowDiv {
+  width: var(--main-width);
+}

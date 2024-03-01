@@ -1,0 +1,226 @@
+.rowDiv.CartProducts {
+  margin: auto;
+}
+
+.rowSpaceBetween {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  gap: 20px;
+}
+
+.main_image>img {
+  width: min(235.771px, 100%);
+  flex-shrink: 0;
+}
+
+.main_image {
+  display: flex;
+  border-radius: 16px;
+  background: var(--light-gray, #f6f4f4);
+  padding: 88px;
+  justify-content: center;
+  align-items: center;
+}
+
+span.sliderChanger {
+  display: inline-block;
+  width: 48.574px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  /* background: url(<path-to-image>), lightgray -2.249px 0px / 111.111% 100% no-repeat; */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.srcChanger {
+  display: flex;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+span.sliderChanger img {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+span.sliderChanger.active {
+  width: 29.684px;
+  height: 29px;
+}
+
+.smallRowDiv {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.topText h5 {
+  color: var(--primary, #009418);
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.ProductDetailsTexts {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  padding: 24px 0;
+  align-items: flex-start;
+}
+
+.ProductDetailsTexts span span {
+  color: #546881;
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.ProductDetailsTexts span {
+  color: var(--Foundation-Blue-Dark, #1d242d);
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.return {
+  color: var(--red, #e81e23);
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 23px;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 120%;
+  /* 27.6px */
+}
+
+span.return span {
+  color: var(--red, #e81e23);
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 27.6px */
+}
+
+.modalBtnAddToCart button {
+  display: flex;
+  width: min(305px, 100%);
+  /* height: 59px; */
+  padding: 12px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: var(--primary, #009418);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.topText p {
+  margin: 0;
+}
+
+.ProductDetailsTexts .modalBtnAddToCart {
+  margin: 0;
+}
+
+.product_details .swiper {
+  min-height: 49vh !important;
+  max-height: 120vh !important;
+}
+
+.relatedProductsSlider {
+  width: 100%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-backface-hidden .swiper-slide {
+  backface-visibility: visible !important;
+}
+
+.swiper {
+  position: initial !important;
+  transform: translateZ(0);
+}
+
+.swiper-backface-hidden .swiper-slide {
+  transform: unset !important;
+  /* backface-visibility: hidden; */
+}
+
+.swiper {
+  transform: initial !important;
+}
+
+.ProductDetailsTexts .ProductInCartMangeButton {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.rowDiv.CartProducts.product_details {
+  width: 100% !important;
+  padding: 10px;
+}
+
+.productDetailsOptions {
+  width: min(414px, 100%);
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid var(--primary, #009418);
+  background: var(--light-green, #f7fff8);
+  padding: 28px 0;
+}
+
+.productDetailsOptions .container {
+  box-shadow: none;
+  background: none;
+}
+
+.productDetailsOptions .container .product-image img {
+  height: auto !important;
+}
+
+.productDetailsOptions .checkoutcartdetails input {
+  display: none;
+}
+
+.productDetailsOptions .checkoutcartdetails {
+  border: none !important;
+  min-height: auto;
+}
+
+.retpoli {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.retpoli * {
+  margin: 0px;
+}

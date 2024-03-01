@@ -1,0 +1,37 @@
+.cancel-container {
+    display: flex;
+    padding: 50px 100px;
+    gap: 30px;
+}
+
+.cancel-container .right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.cancel-container .right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+} 
+
+.cancel-container .right .info {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.calcel-products .left-container {
+    width: 428px;
+}
+
+.calcel-products {
+    /* width: 428px; */
+    border: 1px solid var(--main-color);
+    border-radius: 16px;
+}
+
+.calcel-products .row {}
+
+.calcel-products .row .right {}

@@ -1,0 +1,338 @@
+.account_page .account_info h5 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1px;
+}
+
+.account_page .input_edit {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+  padding: 10px;
+}
+
+.edit_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit_password_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.account_page .edit_button {
+  border-radius: 5px;
+  background-color: var(--main-color);
+  padding: 10px 25px;
+  color: white;
+  cursor: pointer;
+  width: max-content;
+}
+
+.account_page .account_info h5 span {
+  font-weight: 600;
+}
+
+.account_page .account_info h5 svg {
+  color: var(--main-color);
+  cursor: pointer;
+  font-weight: 800 !important;
+  font-size: 30px;
+}
+
+.account_info .info {
+  display: flex;
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.account_info .info>div h5 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 500;
+  color: #3d4c5e;
+}
+
+.account_info .info>div h3 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3d4c5e;
+}
+
+.account_page .account_location {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.account_page .account_location h5 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 500;
+  font-size: 27px;
+  color: #3d4c5e;
+}
+
+.account_page .account_location h5 svg {
+  color: var(--main-color);
+  font-weight: 800 !important;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.account_page .account_location h3 {
+  font-weight: 700;
+  color: #3d4c5e;
+}
+
+.account_page hr {
+  background-color: #f6f4f4;
+  height: 5px;
+  background-color: #f6f4f4;
+  color: #f6f4f4;
+  background-color: #e1e1e1;
+  border-radius: 10px;
+}
+
+.account_page .last_order {
+  text-align: center;
+  padding: 10px;
+}
+
+.account_page .last_order h6 {
+  font-size: 30px;
+  font-weight: 10;
+  margin-bottom: 25px;
+  color: #3d4c5e;
+}
+
+.account_page .last_order>h4 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #3d4c5e;
+}
+
+.account_page .change_password {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.pass_keywords {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+
+.pass_keywords p {
+  width: 20px;
+  height: 20px;
+  background-color: #909dad;
+  border-radius: 50%;
+}
+
+.change_password h5 {
+  margin-bottom: 17px;
+  color: #3d4c5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.change_password h5 svg {
+  color: var(--main-color);
+}
+
+.close_pass {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .account_page {}
+
+  .account_page .account_info h5 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .account_page .account_info h5 span {
+    font-weight: 600;
+  }
+
+  .account_page .account_info h5 svg {
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 800 !important;
+    font-size: 30px;
+  }
+
+  .account_info .info {
+    display: flex;
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 5px;
+  }
+
+  .account_info .info>div h5 {
+    margin: 0px 0px 20px 0px;
+    font-weight: 500;
+    color: #3d4c5e;
+    font-size: 15px;
+  }
+
+  .account_info .info>div h3 {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3d4c5e;
+  }
+
+  .account_page .account_location {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .account_page .account_location h5 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3d4c5e;
+  }
+
+  .account_page .account_location h5 svg {
+    color: var(--main-color);
+    font-weight: 800 !important;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .account_page .account_location h3 {
+    font-weight: 700;
+    color: #3d4c5e;
+    font-size: 20px;
+  }
+
+  .account_page hr {
+    background-color: #f6f4f4;
+    height: 5px;
+    background-color: #f6f4f4;
+    color: #f6f4f4;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+  }
+
+  .account_page .last_order {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .account_page .last_order h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #3d4c5e;
+  }
+
+  .account_page .last_order>h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3d4c5e;
+  }
+
+  .account_page .change_password {
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .pass_keywords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .pass_keywords p {
+    width: 10px;
+    height: 10px;
+    background-color: #909dad;
+    border-radius: 50%;
+  }
+
+  .change_password h5 {
+    margin-bottom: 17px;
+    color: #3d4c5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .change_password h5 svg {
+    color: var(--main-color);
+  }
+
+  .close_pass {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.loading_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
