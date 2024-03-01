@@ -1,0 +1,273 @@
+.add-location-container {
+  max-width: 98%;
+  margin: auto;
+}
+
+.add-location-container form {
+  display: flex;
+  flex-direction: column;
+  width: 435px;
+  gap: 20px;
+}
+
+.add-location-container form .input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.add-location-container form .input-form label {
+  font-size: 20px;
+}
+
+.add-location-container form .input-form input {
+  border-radius: 8px;
+  border: 1px solid rgb(0, 218, 0);
+  height: 50px;
+  padding: 10px;
+}
+
+.add-location-container form .input-form .star {
+  color: red;
+}
+
+
+.add-location-container form .row4 {
+  display: flex;
+  gap: 20px;
+
+}
+
+.add-location-container form .row4 select {
+  width: 186px;
+  flex-grow: 1;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 218, 0);
+  height: 50px;
+  padding: 10px;
+}
+
+.add-location-container form .row6 {
+  display: flex;
+  gap: 20px;
+}
+
+.add-location-container form .row6 .input-form input {
+  width: 99px;
+  height: 36px;
+}
+
+.add-location-container form .input-form.radio-button-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* .add-location-container form .radio-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid greenyellow;
+} */
+
+.add-location-container .error {
+  color: red;
+}
+
+.submit-button {
+  background-color: #f3fff4;
+  padding: 10px 50px;
+  border: 1px solid var(--main-color);
+  width: max-content;
+  border-radius: 16px;
+  font-weight: 700;
+  color: var(--main-color);
+  font-size: 28px;
+  width: 385px;
+  height: 76px;
+  margin-top: 50px;
+}
+
+
+
+
+
+.clear {
+  clear: both;
+}
+
+.checkBox {
+  display: block;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  /* box-shadow: 0px 0px 0px 1px var(--main-color); */
+}
+
+.checkBox div {
+  width: 15px;
+  height: 15px;
+  background-color: var(--main-color);
+  top: -52px;
+  left: -52px;
+  position: absolute;
+  transform: rotateZ(45deg);
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.checkBox input[type=checkbox]:checked+div {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkBox input[type=checkbox] {
+  position: absolute;
+  left: 50px;
+  visibility: hidden;
+}
+
+.transition {
+  /* transition: 300ms ease; */
+}
+
+
+@media screen and (max-width:800px) {
+  .add-location-container {}
+
+  .add-location-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .add-location-container form .input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .add-location-container form .input-form label {
+    font-size: 20px;
+  }
+
+  .add-location-container form .input-form input {
+    border-radius: 8px;
+    border: 1px solid rgb(0, 218, 0);
+    height: 50px;
+    padding: 10px;
+  }
+
+  .add-location-container form .input-form .star {
+    color: red;
+  }
+
+
+  .add-location-container form .row4 {
+    display: flex;
+    gap: 20px;
+
+  }
+
+  .add-location-container form .row4 select {
+    width: 186px;
+    flex-grow: 1;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 218, 0);
+    height: 50px;
+    padding: 10px;
+  }
+
+  .add-location-container form .row6 {
+    display: flex;
+    gap: 20px;
+  }
+
+  .add-location-container form .row6 .input-form input {
+    width: 99px;
+    height: 36px;
+  }
+
+  .add-location-container form .input-form.radio-button-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  /* .add-location-container form .radio-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid greenyellow;
+} */
+
+  .add-location-container .error {
+    color: red;
+  }
+
+  .submit-button {
+    background-color: #f3fff4;
+    padding: 10px 30px;
+    border: 1px solid var(--main-color);
+    width: max-content;
+    border-radius: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: 20px;
+    width: 385px;
+    height: 76px;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .checkBox {
+    display: block;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 0px 1px var(--main-color); */
+  }
+
+  .checkBox div {
+    width: 15px;
+    height: 15px;
+    background-color: var(--main-color);
+    top: -52px;
+    left: -52px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    z-index: 100;
+    border-radius: 50%;
+  }
+
+  .checkBox input[type=checkbox]:checked+div {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .checkBox input[type=checkbox] {
+    position: absolute;
+    left: 50px;
+    visibility: hidden;
+  }
+
+  .transition {
+    /* transition: 300ms ease; */
+  }
+}

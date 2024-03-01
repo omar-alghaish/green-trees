@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Playball&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+* {
+  scroll-behavior: smooth scroll;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+  position: relative;
+}
+:root {
+  --main-color: #009418;
+  --secondery-color: #3d4c5e;
+  --main-width: 86%;
+  --small-screen-width: 100%;
+}
+
+button {
+  border: none;
+}

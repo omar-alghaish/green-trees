@@ -1,0 +1,6 @@
+.left_page {
+  flex: 1;
+  padding:0 30px;
+/* background-color: red; */
+width: 100%;
+}

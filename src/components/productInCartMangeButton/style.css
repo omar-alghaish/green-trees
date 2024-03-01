@@ -1,0 +1,49 @@
+.ProductInCartMangeButton {
+  width: 190px;
+  display: flex;
+  align-items: center;
+}
+
+.ProductInCartMangeButton .addBTN:last-child {
+  left: 30px;
+}
+
+.ProductInCartMangeButton .addBTN:first-child {
+  right: 30px;
+}
+
+.TextInput {
+  width: 151px;
+  text-align: center;
+  height: 36px;
+  flex-shrink: 0;
+  border: 0.5px solid var(--primary, #009418);
+  background: var(--light-gray, #f6f4f4);
+  z-index: 2;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Foundation-Blue-Dark, #1d242d);
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.addBTN {
+  z-index: 4;
+}
+
+.ProductInCartMangeButton {
+  position: absolute;
+  left: 70px;
+  bottom: -28px;
+}
+
+.ProductInCartMangeButton .addBTN svg {
+  width: 56px;
+  height: 56px;
+}

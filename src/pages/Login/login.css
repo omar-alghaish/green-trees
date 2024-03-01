@@ -1,0 +1,148 @@
+.login_page {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.login_page .login_content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.login_content .left {
+  width: 450px;
+  max-width: 97%;
+  margin: auto;
+}
+
+.login_content .right {
+  width: 400px;
+  max-width: 100%;
+}
+
+.login_content .right img {
+  width: 100%;
+  margin-top: 75px !important;
+}
+
+.login_content .left * {
+  margin: 0px;
+}
+
+.login_content .left h5:first-of-type {
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login_content .left .sign_new {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+}
+
+.login_content .left .sign_new h4 {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.login_content .left .sign_new svg {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.login_content .left .create_new_text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login_content .create_new_text {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.login_content .create_new_text p:nth-of-type(2) {
+  color: var(--main-color);
+}
+
+.login_content form div {
+  margin-bottom: 20px !important;
+}
+
+.login_content form div label {
+  margin-bottom: 10px !important;
+  font-size: 20px;
+  color: #828282;
+  font-weight: 400;
+}
+
+.login_content form input {
+  padding: 15px;
+  border-color: var(--main-color);
+}
+
+.login_content .forget_pass {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login_content form button {
+  background-color: var(--main-color);
+  color: white;
+  margin: 40px auto 10px !important;
+  display: block;
+  padding: 20px;
+  width: 350px;
+  border-radius: 16px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-right: 10px;
+  max-width: 100%;
+}
+
+.login_content .create_new_text:nth-of-type(3),
+.login_content .create_new_text:nth-of-type(4) {
+  margin-top: 10px;
+  text-align: center !important;
+}
+
+.create_new_text_n {
+  text-align: start !important;
+  justify-content: start !important;
+}
+
+.create_new_text_n-c {
+  justify-content: start !important;
+
+}
+
+.login_page .login_content .right img {
+  margin-top: 40px;
+}
+
+.sign_page .login_content .left .create_new_text {
+  gap: 3px !important;
+}

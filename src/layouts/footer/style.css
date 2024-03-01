@@ -1,0 +1,64 @@
+.topFooter {
+  background: var(--primary, #009418);
+  display: flex;
+  gap: 32px;
+  padding: 20px 0;
+}
+
+.topFooter .rowDiv {
+  margin: auto;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.topFooter .rowDiv h3 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Tajawal;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.topFooter .rowDiv li {
+  color: var(--white, #fff);
+  text-align: right;
+  margin: 32px 0;
+  /* web-sub */
+  font-family: Tajawal;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 27.6px */
+  list-style: none;
+}
+
+.enVersion .topFooter .rowDiv li,
+.enVersion .topFooter .rowDiv h3 {
+  text-align: left !important;
+}
+
+.enVersion p.bottomFooter,
+p.bottomFooter {
+  color: var(--foundation-blue-normal-active, #3d4c5e);
+  text-align: right;
+
+  /* web body */
+  font-family: Tajawal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  text-align: center !important;
+}
+
+.topFooter .rowDiv li a {
+  text-decoration: none;
+
+  color: white;
+}
+
+.footerComponentFooter {
+  display: flex;
+  gap: 24px;
+}

@@ -1,0 +1,59 @@
+/* Breadcrumb.css */
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.breadcrumb span {
+  margin-right: 5px;
+}
+
+.breadcrumb button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0;
+  /* font-size: inherit; */
+}
+
+.breadcrumb button:hover {
+  text-decoration: underline;
+}
+
+#wrapper > div.content-page > div > div > div > div.breadcrumb {
+  width: 100% !important;
+}
+
+.breadcrumb span button {
+  margin-right: 5px;
+  color: var(--foundation-blue-normal-active, #3d4c5e);
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.breadcrumb span.activeLink span {
+  color: var(--primary, #009418);
+  text-align: right;
+  /* web body */
+  font-family: Tajawal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.breadcrumb {
+  padding: 20px;
+}
+
+.breadcrumb {
+  max-width: 1200px;
+  margin: auto;
+}

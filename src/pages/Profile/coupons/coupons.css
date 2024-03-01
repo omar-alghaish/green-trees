@@ -1,0 +1,139 @@
+.coupons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.coupons-container .title {
+    font-weight: bold;
+}
+
+.coupon-container{
+    width: 639px;
+    height: 217px;
+    overflow: hidden; 
+}
+.coupons-container .coupon {
+    background-color: #F7FFF8;
+    width: 639px;
+    height: 217px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+    position: relative;
+    padding:20px 70px;
+    border: 1px solid var(--main-color);
+}
+
+.coupons-container .coupon::after {
+ content: "";
+ width: 102px;
+ height: 102px;
+ border-radius: 50%;
+ position: absolute;
+ left: -70px;
+ background-color: white;
+ top: 50%;
+ transform: translateY(-50%);
+ border: 1px solid var(--main-color);
+ z-index: 11;
+
+}
+
+.coupons-container .coupon::before {
+    content: "";
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    position: absolute;
+    right: -70px;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid var(--main-color);
+
+   }
+
+.coupons-container .coupon .code {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.copy-button {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    .coupons-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .coupons-container .title {
+        font-weight: bold;
+    }
+    
+    .coupon-container{
+        width: 100%;
+        height: 217px;
+        overflow: hidden; 
+    }
+    .coupons-container .coupon {
+        background-color: #F7FFF8;
+        width: 100%;
+        height: 217px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 16px;
+        position: relative;
+        padding:auto 50px;
+        border: 1px solid var(--main-color);
+    }
+    
+    .coupons-container .coupon::after {
+     content: "";
+     width: 102px;
+     height: 102px;
+     border-radius: 50%;
+     position: absolute;
+     left: -70px;
+     background-color: white;
+     top: 50%;
+     transform: translateY(-50%);
+     border: 1px solid var(--main-color);
+     z-index: 11;
+    
+    }
+    
+    .coupons-container .coupon::before {
+        content: "";
+        width: 102px;
+        height: 102px;
+        border-radius: 50%;
+        position: absolute;
+        right: -70px;
+        background-color: white;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 1px solid var(--main-color);
+    
+       }
+    
+    .coupons-container .coupon .code {
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .copy-button {
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+    }    
+}

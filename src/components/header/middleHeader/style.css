@@ -1,0 +1,5 @@
+.LeftMiddleHeader {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+}

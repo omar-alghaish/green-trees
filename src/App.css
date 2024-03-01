@@ -1,0 +1,48 @@
+.rowDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+
+svg {
+  font-size: 24px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body.enVersion p,
+body.enVersion span,
+body.enVersion a,
+body.enVersion input,
+body.enVersion input::placeholder {
+  text-align: left !important;
+}
+
+/* .arVersion .swiper {
+  direction: rtl !important;
+} */
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category.columnDiv h5 {
+  text-align: center;
+}
+
+
+.toastCon {
+  z-index: 121212121212121212121212 !important;
+}
+
+.title h3, .title p{
+  color: black;
+}

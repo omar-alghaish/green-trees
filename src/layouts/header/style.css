@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0px 8px 40px 0px rgba(0, 148, 24, 0.25);
+  border-radius: 0px 0px 16px 16px;
+  padding: 14px;
+  background: white;
+  white-space: nowrap;
+  z-index: 12123213;
+}
+
+header.sticky-header {
+  display: none !important;
+}

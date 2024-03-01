@@ -1,0 +1,14 @@
+.page {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.page.active {
+  background-color: #d1f7d6;
+}
